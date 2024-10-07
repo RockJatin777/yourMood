@@ -2,6 +2,7 @@ import Navbar from "../Navbar";
 
 function Home(){
     return(
+<<<<<<< Updated upstream
         <>
             <Navbar></Navbar>
             <main>
@@ -19,6 +20,9 @@ function Home(){
                 </div>
             </section>
         </>
+=======
+        
+>>>>>>> Stashed changes
     )
         
 }
