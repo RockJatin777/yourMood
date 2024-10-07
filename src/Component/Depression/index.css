@@ -3,5 +3,22 @@
     color: black;
     padding: 36px;
     opacity: 0.9;
-    background-size: cover;
+    background-image: url('https://wallpapercave.com/wp/wp1850727.jpg');
+    background-size: contain;
+    
+    color: aliceblue;
+
+}
+
+.dp-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.dp-desc{
+    padding-left: 22px;
+    list-style-position: inside;
+    font-size: 16px;
+    margin-bottom: 10px;
 }

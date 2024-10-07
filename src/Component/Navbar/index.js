@@ -22,7 +22,9 @@ function Navbar() {
                 <Link className='link' to={'/'}>
                     <p className={path === '/' ? 'underline' : null}>Home</p>
                 </Link>
-                
+                <Link to={'/therepy'} className='link'>
+                    <p className={path === '/therepy' ? 'underline' : null}>Therepy</p>
+                </Link>
                 <select onChange={handleNavigate}>
                     <option value='/'>Conditions</option>
                     <option value="/addiction">Addiction</option>
