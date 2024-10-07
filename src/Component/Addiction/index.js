@@ -22,7 +22,6 @@ function Addiction(){
                 </div>
             </main>
             </>
-        
     )
         
 }
