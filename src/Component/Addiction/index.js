@@ -1,5 +1,6 @@
 
 import './index.css'
+import alcohol from '../Assets/Alcohol.jpg'
 function Addiction(){
     return(
         <>
@@ -20,7 +21,7 @@ function Addiction(){
                 <div>
                     <div>
                         <div>
-                            <img src=""></img>
+                            <img src="/"></img>
                             <h4>Addiction can disrupt personal relationships</h4>
                         </div>
 
