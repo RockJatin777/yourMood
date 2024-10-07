@@ -1,7 +1,7 @@
 function Navbar(){
     return(
         <header>
-            <img src="" />
+            <img src="" alt="logo" />
             <nav>
                 <select>
                     <option>Home</option>
@@ -10,6 +10,9 @@ function Navbar(){
                     <option>Psychology</option>
                     <option>Therepy</option>
                 </select>
+                <select>Conditions A-Z</select>
+                <select>Psychology</select>
+                <select>Therepy</select>
             </nav>
          </header>
     )
