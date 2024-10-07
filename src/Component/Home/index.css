@@ -38,7 +38,10 @@ p{
     position: relative;
     padding-bottom: 32px;
     margin-top: 40px;
+}
 
+.consent-container:hover{
+    transform: scale(1.10);
 }
 
 .btn-container{
