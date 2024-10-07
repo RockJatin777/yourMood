@@ -1,3 +1,4 @@
+import yoga_image from '../Assets/banner-img.webp';
 import './index.css'
 
 function Meditation(){
@@ -41,7 +42,7 @@ function Meditation(){
     <div className="medit-container-1">
         <div className="content">
             <div className="image-side">
-                <img src="" alt="Sample" />
+                <img src={yoga_image} alt="Sample" />
             </div>
             <div className="text-side">
                 <h1 className="section-title">What Happens to Your Brain When You Meditate Every Day?</h1>

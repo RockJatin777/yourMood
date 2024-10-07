@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
         <header>
-            <img className='nav-logo' src={logo} alt="logo" />
+            <Link to={'/'} className='link'><img className='nav-logo' src={logo} alt="logo" /></Link>
             <nav>
                 <Link className='link' to={'/'}>
                     <p className={path === '/' ? 'underline' : 'hoverline'}>Home</p>
