@@ -1,18 +1,24 @@
+import logo from '../Assets/logo.png'
+import './index.css'
+
 function Navbar(){
     return(
         <header>
-            <img src="" alt="logo" />
+            <img className='nav-logo' src={logo} alt="logo" />
             <nav>
+                <p>Home</p>
                 <select>
-                    <option>Home</option>
                     <option>Conditions A-Z</option>
-                    <option>Living Well</option>
-                    <option>Psychology</option>
-                    <option>Therepy</option>
+                    <option>Adiction</option>
+                    <option>Depression</option>
+                    <option>Anxiety</option>
                 </select>
-                <select>Conditions A-Z</select>
-                <select>Psychology</select>
-                <select>Therepy</select>
+                <select> 
+                    <option>Living Well</option>
+                    <option>Managing Stress</option>
+                    <option>Meditation</option>
+                </select>
+                <p>Psychology</p>
             </nav>
          </header>
     )
