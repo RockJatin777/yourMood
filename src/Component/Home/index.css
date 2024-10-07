@@ -23,6 +23,10 @@ p{
     width: 100%;
 }
 
+.relax-container:hover{
+    transform: scale(1.01);
+}
+
 .consent-container{
     background-color: rgb(240, 230, 230);
     border-top-right-radius: 40px;
@@ -41,7 +45,7 @@ p{
 }
 
 .consent-container:hover{
-    transform: scale(1.10);
+    transform: scale(1.02);
 }
 
 .btn-container{
@@ -56,6 +60,12 @@ p{
     background-color: transparent;
     font-size: 16px;
     padding: 6px 20px 6px 20px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(195, 50, 50);
+    color: #ffffff;
 }
 
 .consent-heading{

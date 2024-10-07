@@ -22,6 +22,12 @@ header{
     font-size: 22px;
 }
 
+@media screen and (max-width: 860px) {
+    .drop-down{
+        font-size: 16px;
+    }
+}
+
 /* Submenu (hidden by default) */
 .condition-card {
     display: none;
@@ -64,17 +70,39 @@ header{
     width: 150px;
 }
 
+@media screen and (max-width: 860px) {
+    .nav-logo{
+        height: 20px;
+        width: 100px;
+    }
+}
+
 .link{
     text-decoration: none;
     font-size: 20px;
     color: green;
 }
 
+@media screen and (max-width: 860px) {
+    .link {
+        font-size: 16px;
+    }
+}
 
 nav{
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+@media screen and (max-width: 860px) {
+    nav{
+        gap: 10px;
+    }
+
+    nav p{
+        font-size: 16px;
+    }
 }
 
 

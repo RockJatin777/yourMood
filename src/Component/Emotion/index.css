@@ -5,7 +5,12 @@
 .emotion-def-container{
     background-color: #f9f9f9;
     border-left: 6px solid orangered;
-    padding-left: 24px;
+    padding: 3px 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.emotion-def-container p:hover{
+    color: #2a528f;
 }
 
 .question-section{
@@ -28,6 +33,10 @@
     background: #f7f4f4;
     padding: 24px;
     margin: 20px;
+}
+
+.qna-card:hover{
+    transform: scale(0.99);
 }
 
 .qna-card h2{

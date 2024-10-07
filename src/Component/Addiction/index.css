@@ -19,6 +19,10 @@
     opacity: 0.8;
 }
 
+.alc-image:hover{
+    opacity: 0.9;
+}
+
 .exp-heading{
     margin-top: 36px;
     text-align: center;

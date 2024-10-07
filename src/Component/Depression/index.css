@@ -22,11 +22,19 @@
     margin-top: 16px;
 }
 
+.dp-heading:hover{
+    color: blue;
+}
+
 .dp-desc{
     padding-left: 22px;
     list-style-position: inside;
     font-size: 16px;
     margin-bottom: 12px;
+}
+
+.dp-desc:hover{
+    color: blueviolet;
 }
 
 .sub-head{

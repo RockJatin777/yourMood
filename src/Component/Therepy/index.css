@@ -8,12 +8,22 @@
     width: 99vw;
 }
 
+.therepy-image:hover{
+    opacity: 0.9;
+}
+
 .details-section{
     border: 2px solid orangered;
     padding: 16px;
     border-radius: 16px;
     width: 70%;
     margin: 32px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.details-section:hover{
+    box-shadow: 10px 10px 20px rgba(58, 62, 163, 0.5);
+    transform: scale(1.05);
 }
 
 .details-section h1{
