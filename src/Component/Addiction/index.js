@@ -1,3 +1,4 @@
+
 import './index.css'
 function Addiction(){
     return(
@@ -5,7 +6,7 @@ function Addiction(){
             <Navbar></Navbar>
             <main>
                 <div class="addiction-container">
-                    <h2>
+                    <h2 class="">
                         Addiction -
                     </h2>
                     <p>
