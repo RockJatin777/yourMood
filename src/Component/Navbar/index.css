@@ -8,7 +8,7 @@ header{
 
 .nav-logo{
     height: 30px;
-    width: 120px;
+    width: 140px;
 }
 
 nav{
@@ -20,4 +20,5 @@ nav{
 select{
     outline: none;
     border: none;
+    background-color: transparent;
 }

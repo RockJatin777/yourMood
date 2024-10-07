@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(210, 221, 231);
+}
+
+.home-container{
+    background-image: url(https://img.freepik.com/free-photo/man-fantasy-setting-practicing-yoga-mindful-meditation_23-2151416402.jpg?t=st=1728289736~exp=1728293336~hmac=98f7d9b039e9c52b712f5563e44f3061e1a34cd60f553aee62e8ce8e7e944bfb&w=1480);
+    background-size: cover;
+    color: #ffffff;
+    height: 60vh;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+}
+
+.consent-container{
+    background-color: white;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-top: 100px;
+    opacity: 0.9;
+    padding: 24px;
+    color: black;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.btn{
+    border: 1px solid #d56603;
+    border-radius: 16px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 4px 16px 4px 16px;
+}
