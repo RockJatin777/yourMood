@@ -4,7 +4,7 @@ import './index.css'
 
 
 import './index.css'
-import alcohol from '../Assets/Alcohol.jpg'
+
 
 function Addiction(){
     return(
@@ -12,7 +12,7 @@ function Addiction(){
             <Navbar></Navbar>
             <main>
                 <div class="addiction-container">
-                    <h2 class="">
+                    <h2 class="font-lg">
                         Addiction -
                     </h2>
                     <p>
@@ -21,8 +21,8 @@ function Addiction(){
                     <p>Addiction is a widely viewed as a brain disease due to how it impact the brain's reward, pleasure, and self-control circuits.</p>
                 </div>
             </main>
-        </>
-
+            </>
+        
     )
         
 }
