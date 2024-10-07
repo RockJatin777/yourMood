@@ -13,10 +13,10 @@ function Depression(){
                     <li className='dp-desc'>Discuss how personality traits, such as low self-esteem, sensitivity to stress, and perfectionism, can increase vulnerability to depression.</li>
                     <li className='dp-desc'>Include life events like trauma, abuse, the loss of a loved one, chronic illness, financial issues, and work-related stress as triggers for depression.</li>
                     <li className='dp-heading'>Symptoms of Depression</li>
-                    <li className='dp-heading'>Emotional Symptoms</li>
+                    <li className='dp-heading sub-head'>Emotional Symptoms</li>
                     <li className='dp-desc'>Persistent feelings of sadness, hopelessness, or emptiness</li>
                     <li className='dp-desc'>Irritability, frustration, or anger, even over small matters.</li>
-                    <li className='dp-heading'>Behavioral Symptoms</li>
+                    <li className='dp-heading sub-head'>Behavioral Symptoms</li>
                     <li className='dp-desc'> Loss of interest in activities once enjoyed, including hobbies and socializing..</li>
                     <li className='dp-desc'>Fatigue and decreased energy, making daily tasks feel overwhelming.</li>
                     <li className='dp-desc'>Difficulty concentrating, remembering things, or making decisions.</li>
