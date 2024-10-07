@@ -1,10 +1,10 @@
-import Navbar from "../Navbar"
+
 import './index.css'
 
 function Depression(){
     return(
         <>
-            <Navbar />
+          
             <main className="depression-container">
                 <h1>Depression</h1>
                 <p>

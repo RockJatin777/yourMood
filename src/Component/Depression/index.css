@@ -1,3 +1,7 @@
 .depression-container{
     background-image: url(https://img.freepik.com/free-photo/close-up-person-suffering-from-depression_23-2151008123.jpg?t=st=1728295044~exp=1728298644~hmac=98586f6a137531d63e92b05fae38231324b02512ff9e2661b7ed5bc9412684f4&w=1380);
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+    color: rgb(216, 184, 124);
 }

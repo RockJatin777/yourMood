@@ -1,11 +1,10 @@
-import Navbar from "../Navbar";
 
 import './index.css'
 
 function Home(){
     return(
         <>
-            <Navbar />
+
             <main className="home-container">
                 <h1>Welcome to the Your Mood App</h1>
                 <p>A healthy mind has wealthy soul</p>

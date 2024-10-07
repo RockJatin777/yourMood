@@ -1,4 +1,4 @@
-import Navbar from '../Navbar'
+
 
 import './index.css'
 
@@ -9,7 +9,7 @@ import './index.css'
 function Addiction(){
     return(
         <>
-            <Navbar></Navbar>
+
             <main>
                 <div class="addiction-container">
                     <h2 class="font-lg">

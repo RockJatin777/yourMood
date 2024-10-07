@@ -11,3 +11,5 @@ function Anxiety(){
     )
 
 }
+
+export default Anxiety

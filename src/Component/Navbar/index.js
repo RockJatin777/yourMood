@@ -33,7 +33,7 @@ function Navbar() {
                         </ul>
                     )}
                 </div>
-                <p>Psychology</p>
+                <Link to="/help" className='link'><p>Get Help</p></Link>
             </nav>
         </header>
     );
