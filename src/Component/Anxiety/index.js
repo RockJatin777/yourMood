@@ -15,36 +15,20 @@ function Anxiety(){
             </p>
             <div>
                 <div>
-                    <img src={img_1} alt=' '></img>
-
-                    <img src={img_1} class="anxiety-img"></img>
-
+                    <img class="anxiety-img" src={img_1} alt='' />
                     <h4>Addiction can disrupt personal relationships</h4>
                 </div>
 
                 <div>
-
-                    <img scr={img_2} alt=' '></img>
-
-                    <img scr={img_2} class="anxiety-img"></img>
-
+                    <img scr={img_2} class="anxiety-img"  alt='' />
                     <h4>Addiction can disrupt career opportunities</h4>
-                </div>
-                        
+                </div>  
                 <div>
-                    <img scr={img_3} alt=' '></img>
-
-                    <img scr={img_3} class="anxiety-img"></img>
-
+                    <img scr={img_3} class="anxiety-img" alt='' />
                     <h4>Addiction can often leads legal problem</h4>
                 </div>
-
                 <div>
-
-                    <img scr={img_4} alt=' ' ></img>
-
-                    <img scr={img_4} class="anxiety-img"></img>
-
+                    <img scr={img_4} class="anxiety-img" alt='' />
                     <h4>Addiction can often leads legal problem</h4>
                 </div>
             </div>

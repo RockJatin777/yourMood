@@ -1,42 +1,49 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 import logo from '../Assets/logo.png';
 import './index.css';
 
 function Navbar() {
-    const [dropdownOpen, setDropdownOpen] = useState(false);
+    const location = useLocation();
+    const navigate = useNavigate();
+    const path = location.pathname;
 
-    const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
+    const handleNavigate = (event) => {
+        const value = event.target.value;
+        if (value) {
+            navigate(value);
+        }
+    };
 
     return (
         <header>
             <img className='nav-logo' src={logo} alt="logo" />
             <nav>
-                <Link className='link' to={'/'}><p>Home</p></Link>
-                <div className="dropdown">
-                    <button className='nav-btn' onClick={toggleDropdown}>Conditions A-Z</button>
-                    {dropdownOpen && (
-                        <ul>
-                            <li><Link to="/addiction">Addiction</Link></li>
-                            <li><Link to="/depression">Depression</Link></li>
-                            <li><Link to="/anxiety">Anxiety</Link></li>
-                        </ul>
-                    )}
-                </div>
-                <div className="dropdown">
-                    <button className='nav-btn' onClick={toggleDropdown}>Living Well</button>
-                    {dropdownOpen && (
-                        <ul>
-                            <li><Link to="/managing-stress">Managing Stress</Link></li>
-                            <li><Link to="/meditation">Meditation</Link></li>
-                        </ul>
-                    )}
-                </div>
-                <Link to="/help" className='link'><p>Get Help</p></Link>
+                <Link className='link' to={'/'}>
+                    <p className={path === '/' ? 'underline' : null}>Home</p>
+                </Link>
+                
+                <select onChange={handleNavigate}>
+                    <option value='/'>Conditions</option>
+                    <option value="/addiction">Addiction</option>
+                    <option value="/depression">Depression</option>
+                    <option value="/anxiety">Anxiety</option>
+                </select>
+
+                <select onChange={handleNavigate}>
+                    <option value='/'>Living Well</option>
+                    <option value="/stress">Manage Stress</option>
+                    <option value="/meditation">Meditation</option>
+                    <option value="/emotion">Emotion</option>
+                </select>
+
+                <Link to="/help" className='link'>
+                    <p className={path === '/help' ? 'underline' : null}>Get Help</p>
+                </Link>
             </nav>
         </header>
     );
 }
 
 export default Navbar;
+

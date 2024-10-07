@@ -3,7 +3,7 @@ import './index.css'
 function Footer(){
     return(
         <footer>
-        <div>
+        <div className='footer-detail-section'>
             <div class="footer">
                 <h3>Usefull Links</h3>
                 <ul class="links">
@@ -24,7 +24,7 @@ function Footer(){
             </div>
         </div>
         <div>
-            <p>Copyrights &#169; All Rights Reserved - Your Mood || Designed With &#10084; By : Your-Mood Team</p>
+            <p className='copyright'>Copyrights &#169; All Rights Reserved - Your Mood || Designed With &#10084; By : Your-Mood Team</p>
         </div>
         </footer>
     )

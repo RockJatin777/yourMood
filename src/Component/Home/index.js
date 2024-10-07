@@ -1,7 +1,8 @@
-
+import Footer from '../Footer'
 import './index.css'
 
 function Home(){
+    
     return(
         <article className='home-container'>
             <main className="relax-container">
@@ -10,7 +11,7 @@ function Home(){
                 <h1>Just Breathe <br/> And Relax</h1>
             </main>
             <section className="consent-container">
-                    <h1>How Are You Feeling Today</h1>
+                    <h1 className='consent-heading'>How Are You Feeling Today</h1>
                     <div className="btn-container">
                         <button className="btn">Anxiety</button>
                         <button className="btn">Stress</button>
@@ -18,6 +19,7 @@ function Home(){
                         <button className="btn">Mood Swing</button>
                     </div>
             </section>
+            <Footer />
         </article>
     )
 }

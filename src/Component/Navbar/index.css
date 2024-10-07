@@ -5,21 +5,24 @@ header{
     height: 30px;
     padding-bottom: 0px;
     padding: 16px;
+    background-color: bisque;
 }
 
 .nav-logo{
     height: 30px;
-    width: 140px;
+    width: 150px;
 }
 
 .link{
     text-decoration: none;
+    font-size: 20px;
+    color: green;
 }
 
 nav{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .nav-btn{
@@ -27,31 +30,18 @@ nav{
     border: none;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown ul {
-    display: block;
-    position: absolute;
-    background-color: white;
+select{
+    outline: none;
     border: none;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    z-index: 1000;
-}
-
-.dropdown li {
-    padding: 8px 12px;
-}
-
-.dropdown li a {
-    text-decoration: none;
-    color: black;
-}
-
-.dropdown li:hover {
+    font-size: 24px;
+    margin-top: 2px;
+    color: green;
     background-color: transparent;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
 }

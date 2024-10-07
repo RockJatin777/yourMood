@@ -1,0 +1,116 @@
+/* General Styles */
+.content-area {
+    padding: 50px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Background Colors */
+.bg-peach {
+    background-color: #FBD4B4;
+}
+
+.bg-green {
+    background-color: #D0E8C1;
+}
+
+.bg-pale {
+    background-color: #F5F5F5;
+}
+
+.bg-pale-pink {
+    background-color: #FDD1D1;
+}
+
+/* Button Styles */
+.btn-blue-standard {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-blue-standard:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Grid Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Default Column Layout */
+.col-md-6 {
+    width: 50%;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .btn-blue-standard {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 576px) {
+    .column {
+        width: 100%;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .btn-blue-standard {
+        padding: 10px;
+        width: 100%;
+        font-size: 0.9em;
+    }
+}
