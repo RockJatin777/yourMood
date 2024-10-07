@@ -1,7 +1,6 @@
 
 import './index.css'
 import alcohol from '../Assets/Alcohol.jpg'
-import 
 function Addiction(){
     return(
         <>

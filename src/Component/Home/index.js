@@ -3,7 +3,6 @@ import './index.css'
 
 function Home(){
     return(
-<<<<<<< Updated upstream
         <>
             <Navbar></Navbar>
             <main className="home-container">
@@ -23,9 +22,6 @@ function Home(){
             </main>
             
         </>
-=======
-        
->>>>>>> Stashed changes
     )
         
 }
