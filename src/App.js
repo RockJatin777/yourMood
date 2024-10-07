@@ -8,6 +8,8 @@ import Anxiety from './Component/Anxiety';
 import ManagingSress from './Component/ManagingStress';
 import Meditation from './Component/Meditation';
 import GetHelp from './Component/GetHelp';
+import Therepy from './Component/Therepy';
+import Emotion from './Component/Emotion';
 import './App.css';
 
 function App() {
@@ -19,9 +21,11 @@ function App() {
         <Route path='/addiction' Component={Addiction} />
         <Route path='/depression' Component={Depression} />
         <Route path="/anxiety" Component={Anxiety} />
-        <Route path="/managing-stress" Component={ManagingSress} />
+        <Route path="/stress" Component={ManagingSress} />
         <Route path="/meditation" Component={Meditation} />
         <Route path="/help" Component={GetHelp} />
+        <Route path='/therepy' Component={Therepy} />
+        <Route path='/emotion' Component={Emotion} />
       </Routes>
     </BrowserRouter>
   );
