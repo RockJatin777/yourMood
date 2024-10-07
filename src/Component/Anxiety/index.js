@@ -15,28 +15,27 @@ function Anxiety(){
             </p>
             <div>
                 <div>
-                    <img src={img_1}></img>
+                    <img src={img_1} class="anxiety-img"></img>
                     <h4>Addiction can disrupt personal relationships</h4>
                 </div>
 
                 <div>
-                    <img scr={img_2}></img>
+                    <img scr={img_2} class="anxiety-img"></img>
                     <h4>Addiction can disrupt career opportunities</h4>
                 </div>
                         
                 <div>
-                    <img scr={img_3}></img>
+                    <img scr={img_3} class="anxiety-img"></img>
                     <h4>Addiction can often leads legal problem</h4>
                 </div>
 
                 <div>
-                    <img scr={img_4}></img>
+                    <img scr={img_4} class="anxiety-img"></img>
                     <h4>Addiction can often leads legal problem</h4>
                 </div>
             </div>
         </section>
     )
-
 }
 
 export default Anxiety
