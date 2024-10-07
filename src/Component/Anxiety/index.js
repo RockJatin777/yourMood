@@ -1,8 +1,8 @@
 import './index.css'
-import img_1 from '../Assets/'
-import img_2 from '../Assets/'
-import img_3 from '../Assets/'
-import img_4 from '../Assets/'
+import img_1 from '../Assets/Anxeity-1.jpg'
+import img_2 from '../Assets/Anxiety-2.jpg'
+import img_3 from '../Assets/Anxiety-3.jpg'
+import img_4 from '../Assets/Anxeity-4.jpg'
 
 function Anxiety(){
     return(
