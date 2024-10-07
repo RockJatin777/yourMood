@@ -16,6 +16,35 @@ function Addiction(){
                     <img className='alc-image' src={alcohal_logo} alt='' />
                 </div>
             </main>
+            <h1 className='exp-heading'>Explore Addiction</h1>
+            <div class="card-container">
+                    <div class="card">
+                        <img src="" alt="Sample 1" className="card-img" />
+                        <div class="card-content">
+                            <h3 class="card-title">Impact on Life and Relationships</h3>
+                            <p class="card-description">Addiction affects various aspects of life, including personal relationships, mental and physical health, and financial stability.</p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="Sample 2" className="card-img" />
+                        <div class="card-content">
+                            <h3 class="card-title">Biological and Psychological Factors</h3>
+                            <p class="card-description">Addiction is often driven by complex interactions between the brain's reward system and environmental or psychological triggers.</p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="" alt="Sample 3" className="card-img" />
+                        <div class="card-content">
+                            <h3 class="card-title">Progressive and Chronic Nature</h3>
+                            <p class="card-description">Addiction tends to develop gradually, starting with casual use or exposure and potentially evolving into a more intense, compulsive behavior.</p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
         </>
     )
         
