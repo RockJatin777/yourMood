@@ -7,6 +7,7 @@ import Depression from './Component/Depression';
 import Anxiety from './Component/Anxiety';
 import ManagingSress from './Component/ManagingStress';
 import Meditation from './Component/Meditation';
+import GetHelp from './Component/GetHelp';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/anxiety" Component={Anxiety} />
         <Route path="/managing-stress" Component={ManagingSress} />
         <Route path="/meditation" Component={Meditation} />
+        <Route path="/help" Component={GetHelp} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,8 +1,8 @@
 import './index.css'
-import img_1 from '../Assets/Anxeity-1.jpg'
-import img_2 from '../Assets/Anxiety-2.jpg'
-import img_3 from '../Assets/Anxiety-3.jpg'
-import img_4 from '../Assets/Anxeity-4.jpg'
+import img_1 from '../Assets/Anxeity-1.jpg';
+import img_2 from '../Assets/Anxiety-2.jpg';
+import img_3 from '../Assets/Anxiety-3.jpg';
+import img_4 from '../Assets/Anxeity-4.jpg';
 
 function Anxiety(){
     return(
@@ -15,22 +15,22 @@ function Anxiety(){
             </p>
             <div>
                 <div>
-                    <img src={img_1}></img>
+                    <img src={img_1} alt=''></img>
                     <h4>Addiction can disrupt personal relationships</h4>
                 </div>
 
                 <div>
-                    <img scr={img_2}></img>
+                    <img scr={img_2} alt=''></img>
                     <h4>Addiction can disrupt career opportunities</h4>
                 </div>
                         
                 <div>
-                    <img scr={img_3}></img>
+                    <img scr={img_3} alt=''></img>
                     <h4>Addiction can often leads legal problem</h4>
                 </div>
 
                 <div>
-                    <img scr={img_4}></img>
+                    <img scr={img_4} alt='' ></img>
                     <h4>Addiction can often leads legal problem</h4>
                 </div>
             </div>
