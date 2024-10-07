@@ -1,27 +1,42 @@
-import logo from '../Assets/logo.png'
-import './index.css'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-function Navbar(){
-    return(
+import logo from '../Assets/logo.png';
+import './index.css';
+
+function Navbar() {
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+    const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
+
+    return (
         <header>
             <img className='nav-logo' src={logo} alt="logo" />
             <nav>
-                <p>Home</p>
-                <select>
-                    <option>Conditions A-Z</option>
-                    <option>Adiction</option>
-                    <option>Depression</option>
-                    <option>Anxiety</option>
-                </select>
-                <select> 
-                    <option>Living Well</option>
-                    <option>Managing Stress</option>
-                    <option>Meditation</option>
-                </select>
+                <Link className='link' to={'/'}><p>Home</p></Link>
+                <div className="dropdown">
+                    <button className='nav-btn' onClick={toggleDropdown}>Conditions A-Z</button>
+                    {dropdownOpen && (
+                        <ul>
+                            <li><Link to="/addiction">Addiction</Link></li>
+                            <li><Link to="/depression">Depression</Link></li>
+                            <li><Link to="/anxiety">Anxiety</Link></li>
+                        </ul>
+                    )}
+                </div>
+                <div className="dropdown">
+                    <button className='nav-btn' onClick={toggleDropdown}>Living Well</button>
+                    {dropdownOpen && (
+                        <ul>
+                            <li><Link to="/managing-stress">Managing Stress</Link></li>
+                            <li><Link to="/meditation">Meditation</Link></li>
+                        </ul>
+                    )}
+                </div>
                 <p>Psychology</p>
             </nav>
-         </header>
-    )
+        </header>
+    );
 }
 
-export default Navbar
+export default Navbar;

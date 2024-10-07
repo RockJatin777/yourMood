@@ -1,4 +1,7 @@
+import Navbar from '../Navbar'
+
 import './index.css'
+
 function Addiction(){
     return(
         <>

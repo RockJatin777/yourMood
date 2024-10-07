@@ -11,14 +11,46 @@ header{
     width: 140px;
 }
 
+.link{
+    text-decoration: none;
+}
+
 nav{
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-select{
-    outline: none;
+.nav-btn{
+    background-color: transparent;
     border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown ul {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.dropdown li {
+    padding: 8px 12px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown li:hover {
     background-color: transparent;
 }
