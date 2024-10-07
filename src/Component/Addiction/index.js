@@ -7,7 +7,7 @@ function Addiction(){
             <Navbar></Navbar>
             <main>
                 <div class="addiction-container">
-                    <h2 class="">
+                    <h2 class="font-lg">
                         Addiction -
                     </h2>
                     <p>
