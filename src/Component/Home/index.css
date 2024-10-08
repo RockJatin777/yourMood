@@ -50,6 +50,7 @@ p{
 
 .btn-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 36px;
 }
@@ -72,6 +73,7 @@ p{
     color: #d56603;
 }
 
+
 .help-btn{
     border: 2px solid #d56603;
     border-radius: 16px;
@@ -85,6 +87,7 @@ p{
     transform: scale(1.2);
     background-color: rgb(195, 50, 50);
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 18px;
 }
 
@@ -93,4 +96,33 @@ p{
     padding: 8px 16px 8px 16px;
     border-radius: 6px;
     outline: none;
+=======
+}
+@media max-width(768) {
+    .consent-container{
+        width: 100%;
+        
+    }
+}
+
+@media max-width(768) {
+    .btn-container{
+        padding: auto;
+    }
+}
+
+/* Mobile Device Responsive */
+@media max-width(576) {
+    .consent-container{
+    width: 100%;
+    }
+}
+
+@media max-width(576) {
+    .btn-container{
+        display: inline-flex;
+        text-align:center;
+    }
+
+>>>>>>> 1852605fe0ea1cea11f76f952dad4a582150cdef
 }

@@ -63,8 +63,8 @@
 h1,
 h2,
 h3,
-h3,
-h4 {
+h4,
+h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
 }
@@ -103,7 +103,9 @@ p {
     h1 {
         font-size: 1.2em;
     }
-
+    h3 {
+        font-size: 1em;
+    }
     p {
         font-size: 1em;
     }
