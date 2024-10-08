@@ -30,7 +30,7 @@ function Therepy(){
             <section className='details-section'>
                 <h1>How Much Does Therapy Cost?</h1>    
                 <p>
-                    Therapy may cost, on average, anywhere between $60-$200 per hour, though costs vary depending on a number of factors. Online providers tend to be on the lower end of that range at $60 to $90 per week, while in-person therapy sessions will usually cost between $100 and $200. Suffice to say, cost can be a massive barrier to treatment.
+                    Therapy may cost, on average, anywhere between Rs-500 to Rs-2000 per hour, though costs vary depending on a number of factors. Online providers tend to be on the lower end of that range at Rs-2000 to Rs-10000 per week, while in-person therapy sessions will usually cost between Rs-600 and Rs-1000. Suffice to say, cost can be a massive barrier to treatment.
                     A Verywell Mind survey showed that while 8 in 10 Americans in therapy say it's a good investment, about half of people in therapy are concerned about their ability to pay for it long-term. While online therapy provides a more affordable option, it is still hundreds of dollars per month that many people can't afford if treatment is not covered by insurance.
                 </p>
             </section>
