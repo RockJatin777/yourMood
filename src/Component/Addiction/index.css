@@ -1,5 +1,6 @@
 .addiction-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 36px;
     padding: 36px;
@@ -10,11 +11,14 @@
 }
 
 .addiction-content-container{
-    width: 45%;
+    width: 100%;
     color: white;
+    flex-wrap: wrap;
+    padding: 0px 500px 0px 0px ;
+    display: flex;
 }
 .addiction-content-container:hover{
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .alc-image{
@@ -121,5 +125,25 @@
 
     .card-description {
         font-size: 0
+    }
+}
+
+@media max-width(768) {
+    .addiction-container{
+    
+    }
+    
+}
+
+@media max-width(576) {
+    .addiction-content-container{
+        width: 100%;
+        color: white;
+        padding: 0px 0px 0px 0px ;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .font-lg{
+        font-size: 16px;
     }
 }
