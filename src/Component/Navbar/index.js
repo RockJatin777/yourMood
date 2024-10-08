@@ -24,7 +24,7 @@ function Navbar() {
                 </div>
 
                 <Link to={'/therepy'} className='link'>
-                    <p className={path === '/therepy' ? 'underline' : 'hoverline'}>Therepy</p>
+                    <p className={path === '/therepy' ? 'underline' : 'hoverline'}>Therapy</p>
                 </Link>
                 <div className="menu-container">
                     <p className={path === '/emotion' || path=== '/stress' || path === '/meditation' ? 'drop-down underline' : 'drop-down hoverline'}>Living Well</p>

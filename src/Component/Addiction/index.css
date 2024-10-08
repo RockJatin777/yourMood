@@ -12,11 +12,14 @@
 .addiction-content-container{
     width: 45%;
 }
+.addiction-content-container:hover{
+    transform: scale(1.03);
+}
 
 .alc-image{
     width: 550px;
     height: 300px;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .alc-image:hover{

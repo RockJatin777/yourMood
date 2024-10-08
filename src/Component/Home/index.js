@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Footer from '../Footer'
 import './index.css'
 
@@ -13,10 +14,10 @@ function Home(){
             <section className="consent-container">
                     <h1 className='consent-heading'>How Are You Feeling Today</h1>
                     <div className="btn-container">
-                        <button className="btn">Anxiety</button>
-                        <button className="btn">Stress</button>
-                        <button className="btn">Depression</button>
-                        <button className="btn">Mood Swing</button>
+                        <Link to={'/anxiety'} className='link'><button className="btn">Anxiety</button></Link>
+                        <Link to={'/stress'} className='link'><button className="btn">Stress</button></Link>
+                        <Link to={'/depression'} className='link'><button className="btn">Depression</button></Link>
+                        <Link to={'/emotion'} className='link'><button className="btn">Mood Swing</button></Link>
                     </div>
             </section>
             <Footer />

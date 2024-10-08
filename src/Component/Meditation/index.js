@@ -1,4 +1,4 @@
-import yoga_image from '../Assets/banner-img.webp';
+import yoga_image from '../Assets/Meditation.png';
 import './index.css'
 
 function Meditation(){

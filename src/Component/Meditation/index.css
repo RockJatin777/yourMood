@@ -7,9 +7,15 @@
 }
 
 .head-container {
-    background-image: url('');
+    background-image: url('../Assets/head-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 24px;
+}
+
+.head-container:hover{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
 }
 
 .meditation-container {
