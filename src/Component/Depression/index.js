@@ -26,16 +26,17 @@ function Depression(){
                     <li className='dp-desc'>Explain how antidepressants can be effective in treating chemical imbalances in the brain, although they should always be prescribed and monitored by a healthcare provider.</li>
                     <li className='dp-desc'>Note that it may take time to find the right medication and dosage.</li>
                     <li className='dp-desc'>Mindfulness and Relaxation Techniques </li>
-                    <li className='dp-heading'>Meditation and Yoga: </li>
+                    <li className='dp-heading sub-head'>Meditation and Yoga: </li>
                     <li className='dp-desc'>These practices can reduce stress and help individuals reconnect with themselves.</li>
-                    <li className='dp-heading'>Breathing Exercises: </li>
+                    <li className='dp-heading sub-head'>Breathing Exercises: </li>
                     <li className='dp-desc'>Techniques like deep breathing can help calm the mind and alleviate anxiety.</li>
                     <li className='dp-heading'>Coping Strategies for Depression </li>
-                    <li className='dp-desc'>Establish a Routine: Regular daily routines can provide a sense of structure and accomplishment.</li>
+                    <li className='dp-heading sub-head'>Establish a Routine:</li>
+                    <li className="dp-desc">Regular daily routines can provide a sense of structure and accomplishment.</li>
                     <li className='dp-desc'>Set Small, Achievable Goals: Accomplishing even minor tasks can build confidence and reduce feelings of helplessness.</li>
                     <li className='dp-desc'>Stay Connected: Encourage reaching out to friends, family, or support groups, as social support is crucial in coping with depression.</li>
                     <li className='dp-desc'>Limit Negative Influences: Suggest minimizing exposure to stress-inducing environments, whether online or offline.</li>
-                    <li className='dp-heading'>Encouragement and Hope </li>
+                    <li className='dp-heading sub-head'>Encouragement and Hope </li>
                     <li className='dp-desc'>End with a message of hope, reminding visitors that recovery is possible and that they are not alone. Reassure them that there are many effective treatments and support systems available.</li>
                 </ul>
             </main>

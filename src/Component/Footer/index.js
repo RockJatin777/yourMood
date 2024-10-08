@@ -5,7 +5,7 @@ function Footer(){
         <footer>
         <div className='footer-detail-section'>
             <div class="footer">
-                <h3>Usefull Links</h3>
+                <h3>Useful Links</h3>
                 <ul class="links">
                     <li>Home</li>
                     <li>Addiction</li>

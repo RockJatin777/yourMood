@@ -18,7 +18,7 @@ function Addiction(){
                     <p>The first step in overcoming addiction is to desire change and avoid the people, places and things which promote the addiction. Support groups, mentors, and 12 step programs provide help, while counselors, recovery centers, and physicians provide expertise and medication to treat cravings and the effects of withdrawal. Eating healthy and getting exercise also play an important role in recovery.</p>
                 </div>
                 <div>
-                    <img className='alc-image' src={alcohal_logo} alt='' />
+                    
                 </div>
             </main>
             <h1 className='exp-heading'>Explore Addiction</h1>

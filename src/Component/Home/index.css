@@ -71,3 +71,18 @@ p{
 .consent-heading{
     color: #d56603;
 }
+
+.help-btn{
+    border: 2px solid #d56603;
+    border-radius: 16px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 6px 24px 6px 24px;
+    background-color: #ffffff;
+}
+
+.help-btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(195, 50, 50);
+    color: #ffffff;
+}
