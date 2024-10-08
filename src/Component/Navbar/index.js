@@ -30,7 +30,7 @@ function Navbar() {
                     <p className={path === '/emotion' || path=== '/stress' || path === '/meditation' ? 'drop-down underline' : 'drop-down hoverline'}>Living Well</p>
                     <div className='condition-card'>
                         <Link className='link' to="/stress"><p>Manage Stress</p></Link>
-                        <Link className='link' to="/meditation"><p>Medication</p></Link>
+                        <Link className='link' to="/meditation"><p>Meditation</p></Link>
                         <Link className='link' to="/emotion"><p>Emotion</p></Link>
                     </div>
                 </div>
