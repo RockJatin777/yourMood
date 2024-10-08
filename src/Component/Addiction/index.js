@@ -22,7 +22,7 @@ function Addiction(){
             <h1 className='exp-heading'>Explore Addiction</h1>
             <div className="card-container">
                 <div className="card">
-                    <img src={card_1_img} alt="Sample 1" className="card-img" />
+                    <img src={card_2_img} alt="Sample 1" className="card-img" />
                     <div className="card-content">
                         <h3 className="card-title">Impact on Life and Relationships</h3>
                         <p className="card-description">Addiction affects various aspects of life, including personal relationships, mental and physical health, and financial stability.</p>
@@ -31,7 +31,7 @@ function Addiction(){
                 </div>
 
                 <div className="card">
-                    <img src={card_2_img} alt="Sample 2" className="card-img" />
+                    <img src={card_1_img} alt="Sample 2" className="card-img" />
                     <div className="card-content">
                         <h3 className="card-title">Biological and Psychological Factors</h3>
                         <p className="card-description">Addiction is often driven by complex interactions between the brain's reward system and environmental or psychological triggers.</p>
