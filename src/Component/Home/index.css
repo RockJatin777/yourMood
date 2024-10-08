@@ -72,7 +72,7 @@ p{
 .consent-heading{
     color: #d56603;
 }
-<<<<<<< Updated upstream
+
 
 .help-btn{
     border: 2px solid #d56603;
@@ -87,7 +87,7 @@ p{
     transform: scale(1.2);
     background-color: rgb(195, 50, 50);
     color: #ffffff;
-=======
+}
 @media max-width(768) {
     .consent-container{
         width: 100%;
@@ -113,5 +113,5 @@ p{
         display: inline-flex;
         text-align:center;
     }
->>>>>>> Stashed changes
+
 }

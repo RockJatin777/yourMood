@@ -6,7 +6,7 @@ footer{
 }
 
 footer:hover{
-    transform: scale(0.98);
+    transform: scale(1);
 }
 
 .footer-detail-section{
