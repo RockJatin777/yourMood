@@ -87,7 +87,6 @@ p{
     transform: scale(1.2);
     background-color: rgb(195, 50, 50);
     color: #ffffff;
-<<<<<<< HEAD
     font-size: 18px;
 }
 
@@ -96,7 +95,6 @@ p{
     padding: 8px 16px 8px 16px;
     border-radius: 6px;
     outline: none;
-=======
 }
 @media max-width(768) {
     .consent-container{
@@ -124,5 +122,5 @@ p{
         text-align:center;
     }
 
->>>>>>> 1852605fe0ea1cea11f76f952dad4a582150cdef
+
 }
