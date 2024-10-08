@@ -4,9 +4,9 @@ function Footer(){
     return(
         <footer>
         <div className='footer-detail-section'>
-            <div class="footer">
+            <div className="footer">
                 <h3>Useful Links</h3>
-                <ul class="links">
+                <ul className="links">
                     <li>Home</li>
                     <li>Addiction</li>
                     <li>Anxiety</li>
@@ -14,9 +14,9 @@ function Footer(){
                     <li>Get Help</li>
                 </ul>
             </div>
-            <div class="footer-contact">
+            <div className="footer-contact">
                 <h3>Contact Details</h3>
-                <ul class="links">
+                <ul className="links">
                     <li>E-Mail : </li>
                     <li>Phone No. : +91-81xxxxxx47</li>
                     <li>Address : 121 East Main Street Riverhead, NY 11901, New York</li>

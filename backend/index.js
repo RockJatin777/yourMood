@@ -38,11 +38,13 @@ const initializeAndServer = async () => {
 
 // Fetching Data
 app.post('/', async (req, res) => {
-    const { symptoms } = req.body;
+    const { symptons } = req.body; // Match the name here
+
+    console.log('Received symptom:', symptons); // Log the received symptom
 
     try {
         const query = `SELECT * FROM symptom WHERE symptons = ?`;
-        const data = await db.all(query, [symptoms]);
+        const data = await db.all(query, [symptons]);
         res.send(data);
     } catch (error) {
         console.error('Error fetching data:', error);
