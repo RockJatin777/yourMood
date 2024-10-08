@@ -4,5 +4,11 @@
 
 .deal-container{
     border-left: 5px solid orangered;
-    padding-left: 16px;
+    padding: 4px 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 24px;
+}
+
+.deal-container:hover{
+    transform: scale(1.01);
 }
