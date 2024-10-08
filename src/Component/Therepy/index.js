@@ -6,7 +6,7 @@ function Therepy(){
     return(
         <main className='therepy-container'>
             <img className='therepy-image' src={therepy_img} alt='' />
-            <h1>Therepy</h1>
+            <h1>Therapy</h1>
             <section className='details-section'>
                 <h1>What Is Therapy?</h1>
                 <p >
