@@ -1,4 +1,3 @@
-import alcohal_logo from '../Assets/Alcohol.jpg';
 import card_1_img from '../Assets/card-img-1.png';
 import card_2_img from '../Assets/card-img-2.png';
 import card_3_img from '../Assets/card-img-3.png';
