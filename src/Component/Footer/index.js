@@ -23,8 +23,8 @@ function Footer(){
                 </ul>
             </div>
         </div>
-        <div>
-            <p className='copyright'>Copyrights &#169; All Rights Reserved - Your Mood || Designed With &#10084; By : Your-Mood Team</p>
+        <div className='copy'>
+            <p className='copyright'>Copyrights &#169; All Rights Reserved - Your Mood || Designed With &#10084; By : Hack Squad</p>
         </div>
         </footer>
     )

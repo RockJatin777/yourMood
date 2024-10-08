@@ -50,6 +50,7 @@ p{
 
 .btn-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 36px;
 }
@@ -71,6 +72,7 @@ p{
 .consent-heading{
     color: #d56603;
 }
+<<<<<<< Updated upstream
 
 .help-btn{
     border: 2px solid #d56603;
@@ -85,4 +87,31 @@ p{
     transform: scale(1.2);
     background-color: rgb(195, 50, 50);
     color: #ffffff;
+=======
+@media max-width(768) {
+    .consent-container{
+        width: 100%;
+        
+    }
+}
+
+@media max-width(768) {
+    .btn-container{
+        padding: auto;
+    }
+}
+
+/* Mobile Device Responsive */
+@media max-width(576) {
+    .consent-container{
+    width: 100%;
+    }
+}
+
+@media max-width(576) {
+    .btn-container{
+        display: inline-flex;
+        text-align:center;
+    }
+>>>>>>> Stashed changes
 }
